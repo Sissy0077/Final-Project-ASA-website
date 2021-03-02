@@ -1,0 +1,11 @@
+.logo {
+  background-image: url("./images/ASALogo.png"); 
+  background-repeat: no-repeat;
+}
+.roundimage{
+  size: auto;
+  flex-direction: wrap;
+    
+ 
+
+}
