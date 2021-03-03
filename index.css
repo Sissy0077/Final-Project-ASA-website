@@ -1,6 +1,7 @@
 .logo {
   display: inline-block;
   background-image: url("./images/ASALogo.png"); 
+  margin-top: 20px;
   Height: 200px;
   width: 200px;
   background-repeat: no-repeat;
@@ -10,7 +11,7 @@
 .element-style{
   position: absolute;
   height: 200px;
-  Top: 0;
+  Top: 0;  
 
 } 
 .element-style2
