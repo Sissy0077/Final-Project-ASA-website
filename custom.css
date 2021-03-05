@@ -1,0 +1,36 @@
+.logo {
+    display: inline-block;
+    background-image: url(./images/ASALogo.png);
+    margin-top: 20px;
+    Height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    position: absolute;
+    z-index: 100;
+   
+  }
+  .element-style{
+    position: absolute;
+    height: 200px;
+    Top: 0;  
+  
+  } 
+  .element-style2
+  { position: absolute;
+    Bottom: 0;
+   right: 10px;
+  }
+  .roundimage{
+    display: inline-flex;
+    flex-wrap: end;
+    size: auto;}
+  
+  .hero-header{
+    padding-top: 200px;
+   }
+.intro {
+    font-size: 50px;
+}
+/* .w3-col l3 m6 w3-margin-bottom {
+    display: grid;
+} */
