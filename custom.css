@@ -1,11 +1,17 @@
+
 .logo {
-    display: inline-block;
-    margin-top: 20px;
-    Height: 200px;
+    background-image: url(./images/ASALogo.png);
+    background-size: contain;
+    position: relative;
+    padding: 15px;
+    z-index:initial;
     width: 200px;
+    height: 200px;  
     background-repeat: no-repeat;
-    position: absolute;
-    z-index: 100;   
+    /* transforms */
+    transform: scale(1.6);
+    transform-origin: 0% 0%; 
+    
   }
   .element-style{
     position: absolute;
@@ -18,17 +24,50 @@
     Bottom: 0;
    right: 10px;
   }
-  .roundimage{
+  .roundi-mage{
     display: inline-flex;
     flex-wrap: end;
     size: auto;}
   
   .hero-header{
-    padding-top: 200px;
-   }
-.intro {
+    padding-top: 20px;
+   } 
+  .intro {
     font-size: 50px;
+  }
+.ln {
+    border: 1px solid #bdbdbd;
 }
+nav {
+    height: 120px;
+    display: flex;
+}
+nav ul {
+    list-style: none;
+}
+  
+.links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.links>* {
+    padding-right: 2rem;
+}
+.btn-primary {
+    background-color: #D41370;
+    border-radius: 12px;
+    border: none;
+    padding: 8px 32px;
+    color: white;
+    font-weight: 600;
+   }
+
+ul {
+  font-size: 36px;
+}
+
 /* .w3-col l3 m6 w3-margin-bottom {
     display: grid;
 } */
